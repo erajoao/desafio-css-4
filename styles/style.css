@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    z-index: 1;
+    height: 50px;
+}
+main {
+    width: 100%;
+    
+}
+
+body {
+    width: 100%;
+    margin-top: 210px;
+    font-size: 30px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    color: #3a54b4;
+    line-height: 2;
+    text-align: center;
+}
+
+.tittle {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 7vw;
+    font-weight: 700;
+    color: #3a54b4;
+    margin: 0px 0 0 -380px;
+    line-height: 1;
+}
+
+.subtittle {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: #3a54b4;
+    margin: 0px 0 0 -375px;
+    line-height: 1.5;
+}
+
+.subtittle2 {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 0.7vw;
+    font-weight: 300;
+    color: #3a54b4;
+    margin: 0px 0 0 500px;
+    line-height: 1.5;
+}
+
+.tittle2 {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #3a54b4;
+    margin: 0px 0 0 500px;
+    line-height: 2;
+}
+
+section {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #FEF7ED;
+    padding: 90px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+#navbar a {
+    float: left;
+    color: #3a54b4;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#navbar #logo {
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#navbar-right {
+    float: right;
+}
+
+svg {
+    width: 22px;
+    height: 27;
+    vertical-align: baseline;
+    align-self: flex-start;
+}
+.principaltittle {
+    background-color: #3a54b4;
+}
+
+.Principalimg {
+    border-radius: 100%;
+    border: none;
+    width: 479px;
+    height: 478px;
+    background-image: url("../img/cachorro1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-color: black;
+
+}
+
+.firstdivision {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #FEF7ED;
+    display: flex;
+    justify-content: center;
+    padding-left: 380px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.seconddivision {
+    width: 100%;
+    height: 800px;
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+
+.doctorimg {
+
+    border-radius: 100%;
+    border: none;
+    width: 419px;
+    height: 410px;
+    background-image: url("../img/veterinario.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin: 90px 0 90px 610px;
+    white-space: nowrap;
+
+}
+
+.divbutton {
+    margin: 0px 0 0 -380px;
+    line-height: 3;
+    z-index: -1;
+}
+
+.button {
+    background-color: #3a54b4;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divbutton2 {
+    margin: 0px 0 0 500px;
+    line-height: 3;
+}
+.divbutton3 {
+    align-items: center;
+}
+
+
+.button:hover {
+    opacity: 1
+}
+.services {
+    width: 100%;
+    height: 800px;
+}
+
+.dog2 {
+    border-radius: 100%;
+    border: none;
+    width: 230px;
+    height: 230px;
+    background-image: url("../img/cachorro2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dog3 {
+    border-radius: 100%;
+    border: none;
+    width: 230px;
+    height: 230px;
+    background-image: url("../img/cachorro3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cat {
+    border-radius: 100%;
+    border: none;
+    width: 230px;
+    height: 230px;
+    background-image: url("../img/gato.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.divtable {
+    width: 100%;
+}
+table {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    color: #3a54b4;
+    border-spacing: 50px 0px;
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  td {
+    font-size: 0.7vw;
+    
+  }
+  
+  td, th {
+    border: none;
+    text-align: center;
+    padding: 8px;
+  }
+
+/*========================================
+        GRID IMAGENS
+==========================================*/
+  
+  .row {
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 0 0 0 250px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/*========================================
+        RESPONSIVIDADES
+==========================================*/
+
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 20px 10px !important;
+    }
+
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #navbar-right {
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+/*<svg preserveAspectRatio="xMidYMid meet" data-bbox="30 14.9 139.812 170.075" viewBox="30 14.9 139.812 170.075" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true">
+<g>
+    <path d="M142.4 106.8c0-24.3-19.4-43.9-43.2-43.9S56 82.6 56 106.8c0 9.7 3.1 18.6 8.3 25.8l26.4 46.6c3.2 7.7 14 7.7 17.2 0l27.4-48c1-1.6 2-3.2 2.8-4.9l.4-.7h-.1c2.5-5.7 4-12.1 4-18.8zm-20.9 9.3c-.8 1.5-2 2.7-3.4 3.7-1 .7-2.2 1.2-3.4 1.5-.4.1-.9.2-1.3.2h-2c-1-.1-1.9-.3-2.8-.6-1.6-.4-3.1-1-4.7-1.4-1.3-.4-2.5-.7-3.8-.9-.9-.1-1.8-.2-2.7-.2-.7 0-1.4.1-2.2.2-1.4.2-2.8.6-4.2.9-1.5.4-2.9.7-4.4.9-.6.1-1.2.1-1.8.1h-.9c-.3 0-.6-.1-.8-.1-1.5-.2-2.9-.8-4.2-1.7-2.1-1.7-3.4-3.8-3.9-6.5-.2-1-.2-2-.1-3 .1-1.2.4-2.4.8-3.5.7-1.8 1.6-3.4 2.8-4.9.9-1.1 1.9-2.1 3-3 1-.8 2-1.8 2.9-2.8 1.1-1.3 2.1-2.6 3.1-4l2.7-3.6c.7-.9 1.5-1.7 2.3-2.5 1-.9 2.2-1.7 3.5-2.2 1-.4 2-.6 3.1-.5 1.2 0 2.4.2 3.5.5 1.8.5 3.3 1.4 4.5 2.7.9.9 1.6 1.9 2.3 3 .7 1.1 1.4 2.3 2.1 3.4.8 1.3 1.6 2.6 2.4 3.8.9 1.2 1.9 2.3 3 3.4 1.3 1.2 2.5 2.6 3.4 4.2.8 1.3 1.5 2.7 1.9 4.2.3 1.2.6 2.4.6 3.6 0 1.7-.4 3.4-1.3 5.1zm5.1-101c4.1.5 7.2 2.6 9.6 5.9 1.6 2.3 2.7 4.8 3.3 7.6.5 2.4.7 4.7.7 7.2-.1 4.4-1.2 8.7-3.1 12.7-1.3 2.8-3 5.3-5.2 7.4-1.9 1.9-4.1 3.4-6.6 4.4-1.8.7-3.6 1-5.5.9-3.3-.2-6.1-1.5-8.4-3.8-2-2-3.4-4.4-4.3-7-.7-1.9-1.1-3.8-1.3-5.7-.1-1.3-.2-2.7-.2-4 .1-3.2.7-6.3 1.7-9.3 1.1-3.2 2.6-6.1 4.7-8.8 1.8-2.2 3.8-4.1 6.3-5.5 1.8-1 3.7-1.7 5.8-1.9h2c.1.1.2 0 .3 0h.2c-.2-.2-.1-.2 0-.1zM169 67.9c0 .1-.1.2-.1.4-1 2.9-2.6 5.5-4.7 7.7-1.6 1.8-3.4 3.3-5.5 4.5-2.6 1.5-5.5 2.5-8.5 2.7-1.8.1-3.6-.1-5.4-.8-2.6-.9-4.5-2.6-5.9-5-1.1-2-1.6-4.1-1.7-6.4 0-2 .3-4 .9-5.9 1.4-4.2 3.9-7.7 7.2-10.5 1.1-1 2.4-1.8 3.7-2.5 2.7-1.4 5.5-2.3 8.5-2.4 1.7 0 3.4.2 5 .9 2.5 1 4.4 2.6 5.7 5 1.2 2.1 1.7 4.4 1.6 6.8 0 1.3-.2 2.6-.5 3.9 0 .1-.1.2-.1.4 0 .3-.1.7-.2 1.2zM30.6 66.6c0-.1-.1-.2-.1-.4-.3-1.3-.5-2.6-.5-3.9 0-2.4.4-4.7 1.6-6.8 1.3-2.3 3.2-4 5.7-5 1.6-.6 3.3-.9 5-.9 3.1.1 5.9.9 8.5 2.4 1.3.7 2.5 1.5 3.7 2.5 3.4 2.8 5.8 6.3 7.2 10.5.6 1.9 1 3.9.9 5.9 0 2.3-.5 4.4-1.7 6.4-1.4 2.4-3.4 4-5.9 5-1.7.6-3.5.9-5.4.8-3.1-.2-5.9-1.1-8.5-2.7-2.1-1.2-3.9-2.7-5.5-4.5-2-2.3-3.6-4.8-4.7-7.7 0-.1-.1-.2-.1-.4.1-.4 0-.8-.2-1.2zM74.8 15h1.8c.1.1.2 0 .3 0h.4c2.1.2 4 .9 5.8 1.9 2.5 1.4 4.5 3.3 6.3 5.5 2.1 2.6 3.6 5.6 4.7 8.8 1 3 1.6 6.1 1.7 9.3 0 1.3 0 2.7-.2 4-.2 2-.6 3.9-1.3 5.7-.9 2.7-2.3 5.1-4.3 7-2.4 2.3-5.1 3.7-8.4 3.8-1.9.1-3.7-.2-5.5-.9-2.5-1-4.7-2.5-6.6-4.4-2.2-2.2-3.9-4.7-5.2-7.4-1.9-4-2.9-8.2-3.1-12.7-.1-2.4.1-4.8.7-7.2.6-2.7 1.7-5.3 3.3-7.6 2.4-3.3 5.5-5.4 9.6-5.9-.2.1-.1.1 0 .1z"></path>
+</g>
+</svg>*/
